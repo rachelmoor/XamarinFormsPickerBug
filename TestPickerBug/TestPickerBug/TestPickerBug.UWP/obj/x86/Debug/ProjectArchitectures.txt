@@ -1,0 +1,1 @@
+C:\PickerBug\TestPickerBug\TestPickerBug\TestPickerBug.UWP\TestPickerBug.UWP.csproj;x86
