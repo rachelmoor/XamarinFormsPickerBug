@@ -25,11 +25,11 @@
                       HeightRequest="60"
                       BindingContext="{Binding Path=TestViewModel}"
                       ItemsSource="{Binding DisplayStrings}"
-                      SelectedItem="{Binding SelectedItem, Mode=TwoWay}"/>
+                      SelectedItem="{Binding SelectedItem, Mode=OneWayToSource}"/>
         <Picker x:Name="DataPickList"
                 HeightRequest="60"
                 ItemsSource="{Binding ListOfDataItems}"
-                SelectedItem="{Binding SelectedDataItem, Mode=TwoWay}"/>
+                SelectedItem="{Binding SelectedDataItem}"/>
       </StackLayout>
         </ScrollView>
     </Grid>
